@@ -9,6 +9,7 @@ public class Main {
         }
         System.out.println(" Сумма трат за месяц составила " + total + " рублей ");
 
+
         System.out.println(" Задача 2 ");
         int[] expenses1 = {2000, 5000, 6000, 10000, 12000};
         int min = expenses[0];

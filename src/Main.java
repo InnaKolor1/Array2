@@ -10,7 +10,7 @@ public class Main {
         System.out.println(" Сумма трат за месяц составила " + total + " рублей ");
 
 
-        System.out.println(" Задача 2 ");
+        System.out.println(" Задача2 ");
         int[] expenses1 = {2000, 5000, 6000, 10000, 12000};
         int min = expenses[0];
         int max = expenses[0];
@@ -23,7 +23,7 @@ public class Main {
             }
         }
 
-        System.out.println(" Задача 3 ");
+        System.out.println(" Задача3 ");
         int[] expenses2 = {2000, 5000, 6000, 10000, 12000};
         int total1 = 0;
         for (int expense : expenses2) {
@@ -32,7 +32,7 @@ public class Main {
         double average = (double) total1 / expenses2.length;
         System.out.println(" Средняя сумма трат за месяц составила " + average + " рублей ");
 
-        System.out.println(" Задача 4 ");
+        System.out.println(" Задача4 ");
         char[] reserveFullName={'I', 'v', 'a', 'n', 'o', 'v', ' ', 'I', 'v', 'a', 'n'};
         for (int i=reserveFullName.length-1;i>=0;i--){
             System.out.println(reserveFullName);
